@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #define LED 13
-int analogPin = A3;
+float analogPin = A3;
 
-int val = 0;
+float val = 0;
 
 //int threshold = 0;
 
