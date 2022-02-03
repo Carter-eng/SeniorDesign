@@ -8,7 +8,7 @@ def getData():
     sensorReadings = []
     start = time.time()
     current = time.time()
-    while start-current < 10:
+    while current - start < 10:
         data =ser.readline()
         sensorReadings.append(float(data))
         current = time.time()
